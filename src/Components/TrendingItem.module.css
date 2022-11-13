@@ -1,0 +1,52 @@
+.trending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(17, 24, 39, 0.5);
+  border-color: rgb(31, 41, 55);
+  border-radius: 1rem;
+  flex: 26%;
+  max-width: 26%;
+  padding: 5px 1.5rem;
+  margin: 10px;
+  transition-duration: .3s;
+
+}
+
+.trending:hover {
+  transform: scale(1.05);
+  transition-timing-function: cubic-bezier(0, 0, .2, 1);
+  transition-duration: .3s;
+}
+
+.trending h6 {
+  margin: 0px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.trending p {
+  color: #fff;
+}
+
+.trending img {
+  border-radius: 9999px;
+}
+
+.trending small {
+  color: rgb(107, 114, 128);
+}
+
+@media (max-width: 800px) {
+  .trending {
+    flex: 40%;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .trending {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

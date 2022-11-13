@@ -1,0 +1,59 @@
+.footer {
+    background-color: #111827;
+    color: #fff;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSection ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footerSection ul h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.coinbase {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.list {
+    color: rgb(156, 163, 175)
+}
+
+.inputs {
+    background-color: rgb(226, 232, 240);
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.inputs:focus {
+    border: none;
+    outline: none;
+}
+
+.buttonSubmit {
+    padding: 3px .75rem;
+    background-color: rgb(51, 65, 85);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: block;
+}

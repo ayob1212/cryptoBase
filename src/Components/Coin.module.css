@@ -1,0 +1,47 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.boxTable {
+    padding: 20px 0px;
+    margin-top: 2.5rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    border-bottom: 1px solid #fff;
+}
+
+.table tr td {
+    padding: 10px;
+}
+
+.box_search {
+    display: flex;
+    justify-content: end;
+}
+
+.box_search input {
+    background-color: rgb(75, 85, 99) !important;
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 14px;
+    margin: 20px 0px 10px 0px;
+}
+
+.box_search input::placeholder {
+    color: hsl(0, 0%, 80%);
+}

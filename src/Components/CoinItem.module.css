@@ -1,0 +1,32 @@
+.imageCoin {
+    width: 1.5rem;
+}
+
+.boxCoinImage a {
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.svg {
+    width: 140px;
+    height: 40px;
+}
+
+.linkImage {
+    margin-left: 0px !important;
+}
+
+.link {
+    color: #fff;
+}
+
+.link:hover, .linkHidden:hover {
+    color: rgba(255, 255, 255, 0.585);
+}
+
+@media screen and (max-width: 768px) {
+    .linkHidden {
+        display: none;
+    }
+}
